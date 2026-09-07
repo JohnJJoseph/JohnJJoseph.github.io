@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="John J Joseph — Cybersecurity enthusiast with hands-on experience across offensive and defensive security, threat detection, penetration testing, digital forensics and security research.">
+    <meta name="theme-color" content="#05090b">
+    <title>
+      John J Joseph | Cybersecurity
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <canvas id="network-bg" aria-hidden="true">
+    </canvas>
+    <div class="grain" aria-hidden="true">
+    </div>
+    <header class="nav" id="top">
+      <a class="brand" href="#home" aria-label="John J Joseph home">
+        <span>&gt;_</span>
+        JOHN
+        <b>J</b>
+        JOSEPH
+      </a>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#security">Security</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#ctfs">CTFs</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">☾</button>
+        <button id="menuToggle" class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+    <main>
+      <!-- ==================== HERO ==================== -->
+    <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">CYBERSECURITY ENTHUSIAST</p>
+          <h1>
+            <span># BUILD.</span>
+            <br>
+            <span>BREAK.</span>
+            <br>
+            <strong>DEFEND.</strong>
+          </h1>
+          <p class="hero-lead">Cybersecurity enthusiast with hands-on experience across offensive and defensive security.</p>
+          <p class="hero-sub">I build detection systems, investigate attacks, test applications and study how adversaries move through real environments.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">
+              Explore My Work
+              <span>↗</span>
+            </a>
+            <a class="btn" href="#contact">
+              Let's Connect
+              <span>→</span>
+            </a>
+          </div>
+          <div class="hero-flow">
+            <span>DETECT</span>
+            <i>—</i>
+            <span>INVESTIGATE</span>
+            <i>—</i>
+            <span>TEST</span>
+            <i>—</i>
+            <span>LEARN</span>
+          </div>
+        </div>
+        <div class="hero-art reveal delay-1">
+          <div class="portrait-wrap">
+            <div class="portrait-grid">
+            </div>
+            <img src="assets/john-portrait.png" alt="John J Joseph cybersecurity portfolio portrait">
+          </div>
+          <div class="terminal">
+            <div class="terminal-top">
+              <span class="dots">
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+              </span>
+              <span>john@cybersec:~</span>
+              <em>LIVE</em>
+            </div>
+            <div class="terminal-body">
+              <p>
+                <span class="prompt">john@cybersec:~$</span>
+                whoami
+              </p>
+              <p class="output">Cybersecurity Enthusiast</p>
+              <p>
+                <span class="prompt">john@cybersec:~$</span>
+                cat mission.txt
+              </p>
+              <p class="output">
+                &gt; Learn
+                <br>
+                &gt; Build
+                <br>
+                &gt; Break (ethically)
+                <br>
+                &gt; Defend
+                <br>
+                &gt; Make an Impact
+              </p>
+              <p>
+                <span class="prompt">john@cybersec:~$</span>
+                <span class="cursor">_</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== PROJECTS ==================== -->
+      <section class="section projects" id="projects">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-label">01 // FEATURED PROJECTS</p>
+            <h2>
+              Real Projects.
+              <span>Real Impact.</span>
+            </h2>
+          </div>
+          <a href="https://github.com/JohnJJoseph" target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+        </div>
+        <div class="filters reveal">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="defensive">Defensive</button>
+          <button data-filter="offensive">Offensive</button>
+          <button data-filter="networking">Networking</button>
+          <button data-filter="ml">ML / Research</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured project reveal" data-cat="defensive ml">
+            <div class="project-visual neural">
+              <div class="graph-lines">
+              </div>
+              <div class="brain">◎</div>
+              <div class="chart">
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>DEFENSIVE</span>
+                <span>ML</span>
+              </div>
+              <h3>NeuralWatch</h3>
+              <p>ML-based log anomaly detection system designed as an intelligent filtering layer for SOC analysts.</p>
+              <div class="project-stats">
+                <div>
+                  <b>15M+</b>
+                  <small>LOGS ANALYZED</small>
+                </div>
+                <div>
+                  <b>0.924</b>
+                  <small>F1 SCORE</small>
+                </div>
+                <div>
+                  <b>0.998</b>
+                  <small>AUC-ROC</small>
+                </div>
+              </div>
+              <div class="techline">PyTorch · Flask · SIEM · Groq Llama 3.1</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph/Log_Anomaly_Detection_Using_ML_for_SOC_Analyst" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+          <article class="project-card project reveal" data-cat="defensive">
+            <div class="project-visual soc">
+              <span>WAZUH</span>
+              <div class="server">
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>DEFENSIVE</span>
+                <span>SIEM</span>
+              </div>
+              <h3>SOC Home Lab</h3>
+              <p>Wazuh-based SIEM with Sysmon telemetry, custom detection rules, attack-chain simulation and MITRE ATT&amp;CK mapping.</p>
+              <div class="techline">Wazuh · Sysmon · MITRE ATT&amp;CK</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+          <article class="project-card project reveal" data-cat="offensive">
+            <div class="project-visual ad">
+              <span>ACTIVE DIRECTORY</span>
+              <div class="nodes">
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+                <b>
+                </b>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>OFFENSIVE</span>
+                <span>ACTIVE DIRECTORY</span>
+              </div>
+              <h3>AD Pentesting Lab</h3>
+              <p>GOAD-style lab with BloodHound, Mimikatz and Rubeus for attack-path mapping and lateral movement.</p>
+              <div class="techline">BloodHound · Mimikatz · Rubeus · evil-winrm</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+          <article class="project-card project reveal" data-cat="networking defensive">
+            <div class="project-visual network">
+              <span>pfSense</span>
+              <div class="packets">
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>NETWORKING</span>
+                <span>DEFENSIVE</span>
+              </div>
+              <h3>Network IDS/IPS Lab</h3>
+              <p>pfSense with Snort, Suricata and Wazuh integration, validated with controlled attack traffic.</p>
+              <div class="techline">pfSense · Snort · Suricata · Wazuh</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph/pfsense-wazuh-ids-ips" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+          <article class="project-card project reveal" data-cat="defensive">
+            <div class="project-visual sentinel">
+              <span>AZURE / KQL</span>
+              <div class="map">
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>DEFENSIVE</span>
+                <span>CLOUD</span>
+              </div>
+              <h3>RDP Honeypot &amp; Attack Visualization</h3>
+              <p>Azure Windows RDP honeypot with PowerShell enrichment and Microsoft Sentinel/KQL visualization.</p>
+              <div class="techline">Azure · Sentinel · KQL · PowerShell</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph/SIEM-rdp-honeypot-visualizer" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+          <article class="project-card project reveal" data-cat="offensive">
+            <div class="project-visual websec">
+              <span>OWASP // VAPT</span>
+              <div class="terminal-lines">
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+                <i>
+                </i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>OFFENSIVE</span>
+                <span>WEB SECURITY</span>
+              </div>
+              <h3>Web Application VAPT Lab</h3>
+              <p>Controlled-lab testing across DVWA, bWAPP and testphp.vulnweb.com with OWASP Top 10 coverage.</p>
+              <div class="techline">Burp Suite · OWASP ZAP · SQLmap · Nmap</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph/Web-Application-Security-Testing" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+          <article class="project-card project reveal" data-cat="offensive">
+            <div class="project-visual binary">
+              <span>PWN / BINARY</span>
+              <div class="binary-code">
+                0x7fffffff
+                <br>
+                ROP → GOT → LIBC
+                <br>
+                NX · PIE · RELRO
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>OFFENSIVE</span>
+                <span>CTF PWN</span>
+              </div>
+              <h3>Binary Exploitation Writeups</h3>
+              <p>Progressive pwn challenges covering buffer overflow, ret2libc, ROP, format strings and shellcode.</p>
+              <div class="techline">pwntools · GDB/pwndbg · ROPgadget</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph/binary-exploitation-writeups" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+          <article class="project-card project reveal" data-cat="offensive networking">
+            <div class="project-visual ctool">
+              <span>NETCRAFT-C</span>
+              <div class="code-window">
+                SYN_SCAN()
+                <br>
+                PCAP_CAPTURE()
+                <br>
+                ARP_SPOOF()
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="tags">
+                <span>OFFENSIVE</span>
+                <span>NETWORKING</span>
+              </div>
+              <h3>NetCraft-C</h3>
+              <p>Low-level C toolkit implementing SYN scanning, TCP connect scanning, packet sniffing and ARP spoofing.</p>
+              <div class="techline">C · Raw Sockets · libpcap</div>
+              <a class="project-link" href="https://github.com/JohnJJoseph/NetCraft-C" target="_blank" rel="noreferrer">View Project ↗</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- ==================== SECURITY FOCUS ==================== -->
+      <section class="section security" id="security">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-label">02 // SECURITY FOCUS</p>
+            <h2>
+              Two sides.
+              <span>One mindset.</span>
+            </h2>
+          </div>
+          <p>Hands-on learning across attack, detection, investigation and defense.</p>
+        </div>
+        <div class="security-grid">
+          <article class="security-card offensive reveal">
+            <div class="security-icon sword" aria-hidden="true">
+            </div>
+            <p class="mini">OFFENSIVE SECURITY</p>
+            <h3>Explore. Exploit. Learn.</h3>
+            <p>Web application testing, Active Directory attack paths, binary exploitation, reconnaissance and controlled security research.</p>
+            <div class="chips">
+              <span>Penetration Testing</span>
+              <span>OWASP</span>
+              <span>AD Attacks</span>
+              <span>Binary Exploitation</span>
+              <span>CTFs</span>
+            </div>
+          </article>
+          <article class="security-card defensive reveal">
+            <div class="security-icon shield" aria-hidden="true">
+            </div>
+            <p class="mini">DEFENSIVE SECURITY</p>
+            <h3>Detect. Investigate. Respond.</h3>
+            <p>SIEM deployment, threat detection, endpoint telemetry, network monitoring, digital forensics and incident investigation.</p>
+            <div class="chips">
+              <span>SOC</span>
+              <span>SIEM</span>
+              <span>Threat Hunting</span>
+              <span>Forensics</span>
+              <span>MITRE ATT&amp;CK</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- ==================== CERTIFICATIONS & WORKSHOPS ==================== -->
+      <section class="section credentials" id="credentials">
+        <div class="credential-grid">
+          <div class="credential-block reveal">
+            <p class="section-label">03 // CERTIFICATIONS</p>
+            <h2>
+              Credentials that
+              <br>
+              <span>back the work.</span>
+            </h2>
+            <div class="credential-cards">
+              <article>
+                <b>AWS</b>
+                <strong>Cloud Practitioner</strong>
+              </article>
+              <article>
+                <b>Cybersecurity workshop</b>
+                <strong>Security Specialty Training</strong>
+              </article>
+              <article>
+                <b>CISCO</b>
+                <strong>Ethical Hacking </strong>
+              </article>
+              <article>
+                <b>API University</b>
+                <strong>API Security</strong>
+              </article>
+            </div>
+          </div>
+          <div class="credential-block workshops reveal">
+            <p class="section-label">04 // WORKSHOPS &amp; TRAINING</p>
+            <h2>
+              Learning beyond
+              <br>
+              <span>the classroom.</span>
+            </h2>
+            <div class="workshop-list">
+              <article>
+                <b>WORKSHOP ON CYBERSECURITY</b>
+                <span>Spectrum Softtech Solutions · Kochi · Jan 2025</span>
+              </article>
+              <article>
+                <b>WORKSHOP ON VAPT</b>
+                <span>Hands-on VAPT Training · 2024</span>
+              </article>
+              <article>
+                <b>STRUCTURED Penetration Testing TRAINING</b>
+                <span>Cynux Era · Dec 2024 — Feb 2025</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== CTF PARTICIPATION ==================== -->
+      <section class="section ctf-section" id="ctfs">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-label">05 // CTF PARTICIPATION</p>
+            <h2>
+              Practice. Compete.
+              <span>Improve.</span>
+            </h2>
+          </div>
+          <p>Challenges that sharpen practical security skills across web, OSINT, forensics and more.</p>
+        </div>
+        <div class="ctf-grid">
+          <article class="ctf-card reveal">
+            <b>CYNUX ERA CTF</b>
+            <span>Web Exploitation · OSINT · Forensics</span>
+          </article>
+          <article class="ctf-card reveal">
+            <b>CLOUDSEK CTF CHALLENGE</b>
+            <span>2024</span>
+          </article>
+          <article class="ctf-card reveal">
+            <b>VIT BHOPAL CTF CHALLENGE</b>
+            <span>CTF Participation · 2024</span>
+          </article>
+          <article class="ctf-card reveal">
+            <b>TRYHACKME</b>
+            <span>Security Rooms &amp; Labs</span>
+          </article>
+          <article class="ctf-card reveal">
+            <b>HACK THE BOX</b>
+            <span>Security Machines &amp; Practice</span>
+          </article>
+        </div>
+      </section>
+      <!-- ==================== ACADEMIC PROJECT ==================== -->
+      <section class="section academic" id="academic">
+        <div class="academic-card reveal">
+          <div>
+            <p class="section-label">06 // ACADEMIC PROJECT</p>
+            <h2>
+              Digital Forensics
+              <br>
+              <span>Investigation.</span>
+            </h2>
+            <p>Forensics investigation exercise completed as part of MSc coursework, focused on evidence acquisition, analysis and documentation.</p>
+          </div>
+          <div class="forensics-points">
+            <p>Disk image acquisition</p>
+            <p>Evidence analysis with Autopsy</p>
+            <p>Chain-of-custody documentation</p>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== EDUCATION ==================== -->
+      <section class="section education" id="education">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-label">07 // EDUCATION</p>
+            <h2>
+              Academic
+              <span>journey.</span>
+            </h2>
+          </div>
+        </div>
+        <div class="edu-list">
+          <article class="edu-item reveal">
+            <div class="edu-date">JUN 2024 — JUL 2026</div>
+            <div>
+              <h3>MSc Computer Science — Cybersecurity, Ethical Hacking &amp; Cyber Forensics</h3>
+              <p>S-VYASA University, Bengaluru · Completed</p>
+            </div>
+          </article>
+          <article class="edu-item reveal">
+            <div class="edu-date">OCT 2021 — MAY 2024</div>
+            <div>
+              <h3>BVoc Business Process &amp; Data Analytics</h3>
+              <p>Cochin University of Science and Technology (CUSAT), Kochi · Completed</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- ==================== TECHNICAL SKILLS ==================== -->
+      <section class="section skills" id="skills">
+        <div class="section-head reveal">
+          <div>
+            <p class="section-label">08 // TECHNICAL SKILLS</p>
+            <h2>
+              Tools I
+              <span>work with.</span>
+            </h2>
+          </div>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group reveal">
+            <b>SECURITY OPERATIONS</b>
+            <div>
+              <span>Wazuh</span>
+              <span>Microsoft Sentinel</span>
+              <span>KQL</span>
+              <span>Sigma</span>
+              <span>Sysmon</span>
+              <span>EDR</span>
+              <span>Wireshark</span>
+              <span>PCAP</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <b>OFFENSIVE SECURITY</b>
+            <div>
+              <span>Burp Suite</span>
+              <span>OWASP ZAP</span>
+              <span>SQLmap</span>
+              <span>Nmap</span>
+              <span>Gobuster</span>
+              <span>Metasploit</span>
+              <span>BloodHound</span>
+              <span>Mimikatz</span>
+              <span>Rubeus</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <b>FORENSICS &amp; STANDARDS</b>
+            <div>
+              <span>Autopsy</span>
+              <span>FTK</span>
+              <span>MITRE ATT&amp;CK</span>
+              <span>NIST CSF</span>
+              <span>NIST SP 800-53</span>
+              <span>ISO 27001</span>
+              <span>CVSS</span>
+              <span>CWE</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <b>PROGRAMMING &amp; CLOUD</b>
+            <div>
+              <span>Python</span>
+              <span>C</span>
+              <span>SQL</span>
+              <span>Bash</span>
+              <span>Git</span>
+              <span>PyTorch</span>
+              <span>AWS</span>
+              <span>Azure</span>
+              <span>Flask</span>
+              <span>FastAPI</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== CONTACT ==================== -->
+      <section class="section contact" id="contact">
+        <div class="contact-inner reveal">
+          <p class="section-label">09 // LET'S CONNECT</p>
+          <h2>
+            Open to collaborations
+            <br>
+            and
+            <span>opportunities.</span>
+          </h2>
+          <p>Interested in entry-level roles across offensive security, defensive security, SOC operations, threat detection and security research.</p>
+          <div class="contact-actions">
+            <a class="btn primary" href="mailto:johnjjoseph22@gmail.com">Email Me ↗</a>
+            <a class="btn" href="https://www.linkedin.com/in/john-j-joseph" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a class="btn" href="https://github.com/JohnJJoseph" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a class="btn" href="https://www.credly.com/users/john-j-joseph/badges" target="_blank" rel="noreferrer">Credly ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#top">
+        <span>&gt;_</span>
+        JOHN
+        <b>J</b>
+        JOSEPH
+      </a>
+      <span>OFFENSIVE + DEFENSIVE SECURITY</span>
+      <span>© 2026</span>
+    </footer>
+<script src="script.js"></script></body>
+</html>
